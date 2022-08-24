@@ -1,0 +1,401 @@
+html {
+    scroll-behavior: smooth;
+    zoom: 140%;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   padding-top: 50px;
+
+}
+
+
+.image-wrapper{
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.sticky {
+	position: fixed;
+	top: 0;
+ width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h2{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h4{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h5{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   
+}
+
+.mrg{
+    margin-top: 3%;
+}
+
+
+.navbar{
+ overflow: hidden;
+ position:fixed;
+ top: 0;
+ width: 100%;
+ padding: 0;
+}
+
+.navbar-nav{
+white-space: nowrap;
+}
+
+.noround{
+  border-radius: 0px;
+}
+
+
+.p-nav{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-decoration: dotted;
+    text-decoration-color: white;
+    text-decoration-thickness: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+.bgimg-1,  .bgimg-3 {
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+
+.bgimg-1 {
+    background-image: url(/Resources/test1.jpg) ;
+    min-height: 400px;
+}
+
+.bgimg-network {
+    background-image: url(/Resources/network.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 45px;
+}
+
+
+.bgimg-admin {
+    background-image: url(/Resources/admin.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 290px;
+}
+
+
+@media screen and (max-width: 576px){
+
+    .card-img-top {
+     max-width: 260px;
+  
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    .card{
+     max-width: 280px;
+  
+    }
+}
+
+
+@media screen and (max-width: 576px){
+
+    .divider{
+     max-width: 360px;
+  
+    }
+}
+
+
+
+
+.bgimg-3 {
+    background-image: url(/Resources/admin.jpg);
+    min-height: 400px;
+
+}
+
+.glide_slides {
+  overflow: visible;
+}
+
+.dropdown-thin a {
+  height: 25px;
+  padding-top: 2px;
+}
+
+
+.testrow{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+small{
+  font-size: x-small;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+.myfont{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.idl-blue {
+    color: #004079;
+}
+
+.a {
+    text-decoration-color: white;
+}
+
+.btn-group {
+    margin: 0 5px;
+    padding: 24px 12px;
+    border-spacing:5px;
+}
+
+.btnspace {
+    border-spacing: 5px;
+}
+
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+.b1{
+    font-weight: bolder;
+}
+
+.b2{
+  font-weight: bold;
+}
+
+.b3{
+font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+    .hide {
+      display: none;
+    }
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+     .split {
+        flex-direction: column;
+     }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #featureContainer .carousel-inner .carousel-item > div {
+      display: none;
+    }
+    #featureContainer .carousel-inner .carousel-item > div:first-child {
+      display: block;
+    }
+  }
+  
+  #featureContainer .carousel-inner .carousel-item.active,
+  #featureContainer .carousel-inner .carousel-item-next,
+  #featureContainer .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+  
+  /* medium and up screens */
+  @media (min-width: 768px) {
+    
+    #featureContainer .carousel-inner .carousel-item-end.active,
+    #featureContainer .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    #featureContainer .carousel-inner .carousel-item-start.active, 
+    #featureContainer .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+  
+    #featureContainer .card img{
+      width: 90%;
+      height: 40vh;
+    }
+  
+    #featureContainer .carousel-item{
+      justify-content: space-between;
+    }
+  
+  }
+  
+  @media (max-width: 767px) {
+    #featureContainer .card img{
+      width: 100%;
+      height: 75vh;
+    }
+  }
+  
+  #featureContainer .carousel-inner .carousel-item-end,
+  #featureContainer .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+  }
+  
+  #featureContainer .card{
+    border: 0;
+  }
+  
+  #featureContainer .card{
+    position: relative;
+  }
+  
+  #featureContainer .card .card-img-overlays{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+  #featureContainer a{
+    text-decoration: none;
+  }
+  
+  #featureContainer .indicator{
+    border: 1px solid rgb(202, 202, 202);
+    padding: 3px 6px 3px 6px;
+  }
+  
+  #featureContainer .indicator:hover{
+    background-color: blue;
+    border: 1px solid blue;
+    transition: 200ms;
+  }
+  
+  #featureContainer .indicator:hover{
+    color: white;
+    transition: 200ms;
+  }
+  
+  #featureContainer .indicator {
+    color: lightgray;
+  }
+  
+  #featureContainer .float-end{
+    padding-top: 10px;
+  }

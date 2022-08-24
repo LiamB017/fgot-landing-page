@@ -1,0 +1,18 @@
+{
+  "name": "idfg-ot-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0",
+    "git": "^0.1.5",
+    "jquery": "^3.6.0"
+  }
+}
